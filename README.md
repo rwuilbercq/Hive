@@ -2,7 +2,9 @@
 	<img src="assets/logo/Hive.png">
 </div>
 
-🍯**Hive** is a a swarm-based optimisation algorithm based on the intelligent foraging behaviour of honey bees. **Hive** implements the so-called **Artificial Bee Colony (ABC)** algorithm which is a swarm-based algorithms inspired by nature. Swarm intelligence refers to the collective behaviour of de-centralized, self-organized systems. The Artificial Bee Colony (ABC) was first proposed by Karaboga in 2005 (see **ref. ➀**). The overarching advantage of this algorithm is its relatively good balance between *exploration* and *exploitation*. In other words, exploitation, by definition, exploits known solution to minimize a cost function while exploration finds new solutions within un-explored parts of the search domain. Furthermore, the algorithms is pretty simple to use as it possesses almost no parameters to tune.
+🍯**Hive** is a a swarm-based optimisation algorithm based on the intelligent foraging behaviour of honey bees. **Hive** implements the so-called **Artificial Bee Colony (ABC)** algorithm which is a swarm-based algorithms inspired by nature. Swarm intelligence refers to the collective behaviour of de-centralized, self-organized systems. The Artificial Bee Colony (ABC) was first proposed by Karaboga in 2005 (see **ref. ➀**). The overarching advantage of this algorithm is its relatively good balance between *exploration* and *exploitation*. In other words, exploitation, by definition, exploits known solution to minimize a cost function while exploration finds new solutions within un-explored parts of the search domain. 
+
+**Furthermore, the algorithms is pretty simple to use as it has almost no parameters to tune.**
 
 ### Intuition
 ----
@@ -24,7 +26,7 @@ As suggested in the previous summary of the algorithm, the ABC model of **Hive**
       
 ➍ An **Exploration Phase** where scout bees are sent out to un-explored regions of the search domain.   
 
-### Constraints
+### Constraints *(Not yet implemented)*
 -----
 
 For constrained optimisation problems, a *tournament selection* is selected. The pair-wise comparison between two individuals is exploited to make sure that (**ref. ➁**):
