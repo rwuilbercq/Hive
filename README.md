@@ -1,5 +1,5 @@
 <div style="text-align:center">
-	<img src="../../assets/logo/Hive.png">
+	<img src="assets/logo/Hive.png">
 </div>
 
 🍯**Hive** is a a swarm-based optimisation algorithm based on the intelligent foraging behaviour of honey bees. **Hive** implements the so-called **Artificial Bee Colony (ABC)** algorithm which is a swarm-based algorithms inspired by nature. Swarm intelligence refers to the collective behaviour of de-centralized, self-organized systems. The Artificial Bee Colony (ABC) was first proposed by Karaboga in 2005 (see **ref. ➀**). The overarching advantage of this algorithm is its relatively good balance between *exploration* and *exploitation*. In other words, exploitation, by definition, exploits known solution to minimize a cost function while exploration finds new solutions within un-explored parts of the search domain. Furthermore, the algorithms is pretty simple to use as it possesses almost no parameters to tune.
