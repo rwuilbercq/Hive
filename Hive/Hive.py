@@ -41,7 +41,7 @@ import copy
 # ---- BEE CLASS
 
 class Bee(object):
-    """ Creates a bee. """
+    """ Creates a bee object. """
 
     def __init__(self, lower, upper, fun, funcon=None):
         """
@@ -58,7 +58,7 @@ class Bee(object):
         """
 
         # creates a random solution vector
-        self._initialise(lower, upper)
+        self._random(lower, upper)
 
         # checks if the problem constraint(s) are satisfied
         if not funcon:
@@ -76,7 +76,7 @@ class Bee(object):
         # initialises trial limit counter - i.e. abandonment counter
         self.counter = 0
 
-    def _initialise(self, lower, upper):
+    def _random(self, lower, upper):
         """ Initialises a solution vector randomly. """
 
         self.vector = []
