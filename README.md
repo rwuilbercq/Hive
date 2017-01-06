@@ -50,7 +50,7 @@ For constrained optimisation problems, a *tournament selection* is selected. The
 
 #### The MIT License (MIT)
 
-Copyright (C) 2016 Romain Wuilbercq
+Copyright (C) 2017 Romain Wuilbercq
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
