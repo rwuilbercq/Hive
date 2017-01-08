@@ -29,7 +29,11 @@ by Karaboga in 2005.
 # ---- IMPORT MODULES
 
 import math
-import numpy as np
+
+try:
+    import numpy as np
+except:
+    raise ImportError("Numpy module not installed.")
 
 from Hive import Utilities
 from Hive import Hive
