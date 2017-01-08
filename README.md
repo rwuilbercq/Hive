@@ -8,6 +8,8 @@ https://rwuilbercq.github.io/Hive/
 
 **Furthermore, the algorithm is pretty simple to use as it has almost no parameters to tune.**
 
+This module is not implemented with **speed** in mind but, instead, it is a straightforward implementation of the underlying algorithm. If you have any suggestions for speed/feature improvements, do not hesitate to let me know!
+
 ### Intuition
 ----
 
