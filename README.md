@@ -2,6 +2,8 @@
 	<img src="assets/logo/Hive.png">
 </div>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1004592.svg)](https://doi.org/10.5281/zenodo.1004592)
+
 🍯**Hive** is a a swarm-based optimisation algorithm based on the intelligent foraging behaviour of honey bees. **Hive** implements the so-called **Artificial Bee Colony (ABC)** algorithm which is a swarm-based algorithms inspired by nature. Swarm intelligence refers to the collective behaviour of de-centralized, self-organized systems. The Artificial Bee Colony (ABC) was first proposed by Karaboga in 2005 (see **ref. ➀**). The overarching advantage of this algorithm is its relatively good balance between *exploration* and *exploitation*. In other words, exploitation, by definition, exploits known solution to minimize a cost function while exploration finds new solutions within un-explored parts of the search domain.
 
 **Furthermore, the algorithm is pretty simple to use as it has almost no parameters to tune.**
@@ -45,6 +47,17 @@ For constrained optimisation problems, a *tournament selection* is selected. The
 ➀ Karaboga, D. (2005), ""An Idea Based on Honey Bee Swarm for Numerical Optimization," _Technical Report-TR06_, Department of Computer Engineering, Engineering Faculty, Erciyes University, Turkey.
 
 ➁ Deb, K. (2000), "An efficient constraint handling method for genetic algorithms," _Computer Methods in Applied Mechanics and Engineering_, 186(2- 4):311–338, Elsevier, Netherlands.
+
+### Citation
+-----
+
+@article{Hive2017,
+    author = "Romain Wuilbercq",
+    year = 2017,
+    title = "Hive, an Artificial Bee Colony Optimization in Python",
+    doi = {10.5281/zenodo.1004592},
+    url = {https://doi.org/10.5281/zenodo.1004592}
+}
 
 
 ### License
