@@ -136,7 +136,7 @@ def create_image(vector):
         colors.append([color[i] for i in range(3)])
 
     # creates a figure of the same dimension as source image
-    fig, ax = plt.subplots(figsize=(xsize/dpi, ysize/dpi))
+    fig, ax = plt.subplots(figsize=(xsize/dpi, ysize/dpi), dpi=dpi)
     ax.set_rasterization_zorder(1)
 
     # creates a collection of polygonal shapes
